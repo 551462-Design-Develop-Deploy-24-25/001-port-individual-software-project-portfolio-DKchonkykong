@@ -1,7 +1,8 @@
 ﻿namespace DDD_report_program
 {
     //got most of the program working although i need to fix some stuff + add error checking and change some stuff
-    //need to do the file saving after they log out easy fix
+    //need to do passwords saved in the txt file 
+    //need to add a way to load the users from a file
     
     class Program : StudentSystems
     {
@@ -86,22 +87,91 @@
         {
             Console.Clear();
             Console.WriteLine("=== Register a New Account ===");
-
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Enter your email: ");
-            string email = Console.ReadLine();
-
-            Console.Write("Enter your password: ");
-            string password = Console.ReadLine();
-
-            Console.Write("Enter your role (Student/PS): ");
-            string role = Console.ReadLine();
-
-            users.Add(new User { Email = email, Password = password, Role = role });
+            string name;
+            //implemented regex to check if the name is valid so if it only includes letters and no special characters
+            while (true)
+            {
+                Console.Write("Enter your name: ");
+                name = Console.ReadLine();
+                if (System.Text.RegularExpressions.Regex.IsMatch(name, @"^[a-zA-Z]+$"))
+                {
+                    break;
+                }
+                Console.WriteLine("Invalid name. Please enter a name that only includes letters.");
+            } 
+            //implemented regex to check if the email is valid
+            string email;
+            while (true)
+            {
+                Console.Write("Enter your email: ");
+                email = Console.ReadLine();
+                if (System.Text.RegularExpressions.Regex.IsMatch(email, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"))
+                {
+                    break;
+                }
+                Console.WriteLine("Invalid email. Please enter a valid email.");
+                
+                //could tie in for the captcha prompt here
+      //          if (users.Any(u => u.Email == email))
+    //            {
+  //                  Console.WriteLine("Email already exists. Please enter a different email.");
+//                }
+              //  {
+              //      break;
+                //}
+            }
+            
+            //implemented regex to check if password has the valid format of min 8 characters with a special character and a number
+            string password;
+            while(true)
+            {
+                Console.Write("Enter your password: ");
+                password = Console.ReadLine();
+                if (System.Text.RegularExpressions.Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$"))
+                {
+                    break;
+                }
+                Console.WriteLine("Invalid password. Please enter a password that is more than 8 characters, contains at least one uppercase letter, one lowercase letter, one number, and one special character.");
+            }
+            
+            //role selection
+            Console.WriteLine("What is your role? Select from the following:");
+            
+            Console.WriteLine("1. Student");
+            Console.WriteLine("2. Supervisor");
+            Console.WriteLine("3. Senior Tutor");
+            string roleChoice = Console.ReadLine();
+            string role = roleChoice switch
+            {
+                "1" => "Student",
+                "2" => "Supervisor",
+                "3" => "Senior Tutor",
+                _ => null
+            };
+                
+            if (role == null)
+                {
+                    Console.WriteLine("Invalid role. Press any key to try again...");
+                    Console.ReadKey();
+                    return;
+                }
+        
+            users.Add(new User { Name = name, Email = email, Password = password, Role = role });
 
             Console.WriteLine("Account registered successfully! Press any key to continue...");
+            Console.ReadKey();
+        }
+        
+        //this displays the users that are in the system 
+        private static void DisplayUsers()
+        {
+            Console.Clear();
+            Console.WriteLine("=== Users ===");
+            foreach (var user in users)
+            {
+                Console.WriteLine($"Name: {user.Name}, Email: {user.Email}, Role: {user.Role}");
+            }
+            Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
 
@@ -121,9 +191,9 @@
                 foreach (var line in lines)
                 {
                     var parts = line.Split(',');
-                    if (parts.Length == 3)
+                    if (parts.Length == 4)
                     {
-                        users.Add(new User { Email = parts[0], Password = parts[1], Role = parts[2] });
+                        users.Add(new User { Name = parts[0], Email = parts[1], Password = parts[2], Role = parts[3] });
                     }
                 }
 
@@ -146,8 +216,9 @@
                 Console.WriteLine("1. Create Self Report");
                 Console.WriteLine("2. Book a Meeting");
                 Console.WriteLine("3. Save Reports and Bookings");
-                Console.WriteLine("4. Logout");
-                Console.WriteLine("5. Exit Program");
+                Console.WriteLine("4. Display Users");
+                Console.WriteLine("5. Logout");
+                Console.WriteLine("6. Exit Program");
                 Console.Write("Select an option: ");
 
                 string choice = Console.ReadLine();
@@ -163,9 +234,12 @@
                         SaveData();
                         break;
                     case "4":
+                        DisplayUsers();
+                        break;
+                    case "5":
                         currentUser = null;
                         return;
-                    case "5":
+                    case "6":
                         Environment.Exit(0);
                         break;
                     default:

@@ -12,3 +12,4 @@ C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.pdb
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.genruntimeconfig.cache
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\ref\DDD report program.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.sourcelink.json

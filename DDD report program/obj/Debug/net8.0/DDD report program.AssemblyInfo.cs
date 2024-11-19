@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DDD report program")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edc51f318860c6ea3f7c10f932658ea45bd1f1a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DDD report program")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DDD report program")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
