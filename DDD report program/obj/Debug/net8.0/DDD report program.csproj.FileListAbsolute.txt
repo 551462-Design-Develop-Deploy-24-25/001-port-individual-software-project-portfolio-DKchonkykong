@@ -1,0 +1,14 @@
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\DDD report program.exe
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\DDD report program.deps.json
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\DDD report program.runtimeconfig.json
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\DDD report program.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\DDD report program.pdb
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.AssemblyInfoInputs.cache
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.AssemblyInfo.cs
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.csproj.CoreCompileInputs.cache
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\refint\DDD report program.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.pdb
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.genruntimeconfig.cache
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\ref\DDD report program.dll

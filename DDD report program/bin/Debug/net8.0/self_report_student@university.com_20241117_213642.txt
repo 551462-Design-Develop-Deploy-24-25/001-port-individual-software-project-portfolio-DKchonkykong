@@ -1,0 +1,10 @@
+Self Report - 17/11/2024 21:36:42
+Student: student@university.com
+Feeling: ok
+
+Course Ratings:
+Programming Fundamentals: 3/10
+Data Structures: 4/10
+Algorithms: 5/10
+Database Systems: 1/10
+Web Development: 2/10
