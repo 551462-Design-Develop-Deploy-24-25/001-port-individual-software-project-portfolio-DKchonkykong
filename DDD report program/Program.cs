@@ -261,9 +261,7 @@
                 StudentEmail = currentUser?.Email
             };
 
-            Console.Write("How are you feeling today? ");
-            report.Feeling = Console.ReadLine();
-
+            
             foreach (var course in courses)
             {
                 while (true)
@@ -277,12 +275,12 @@
                     Console.WriteLine("Please enter a valid number between 0 and 10.");
                 }
             }
-
+            Console.Write("In general, if you could change one thing about these courses what would it be?");
+            report.Feeling = Console.ReadLine();
             selfReports.Add(report);
+            SaveData(); //saves it after creating the self report
         }
-//this seems fine enough however there's no error checking at the moment and it's a bit ehhh atm
-//this is suppsoed to keep track of currently available supervisors which in theory would work but atm it doesn't
-//maybe i should remove it since it wasn't in my original brief stuff
+        //Makes it so the user can book a meeting with a supervisor
         private static void CreateBooking()
         {
             Console.Clear();
@@ -314,6 +312,7 @@
             }
 
             bookings.Add(booking);
+            SaveData(); //saves it after creating the booking
         }
 
         //this is for saving reports to the file system and the correct format
