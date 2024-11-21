@@ -1,0 +1,10 @@
+Self Report - 20/11/2024 23:02:30
+Student: 
+Feeling: the thing
+
+Course Ratings:
+Programming Fundamentals: 3/10
+Data Structures: 2/10
+Algorithms: 4/10
+Database Systems: 5/10
+Web Development: 1/10
