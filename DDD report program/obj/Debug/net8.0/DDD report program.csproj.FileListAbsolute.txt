@@ -13,3 +13,10 @@ C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.genruntimeconfig.cache
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\ref\DDD report program.dll
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.sourcelink.json
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.core.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.csproj.AssemblyReference.cache
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.csproj.CopyComplete

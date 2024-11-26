@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xw4atvlrPL8=",
+  "dgSpecHash": "By+x0cfaFqg=",
   "success": true,
   "projectFilePath": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDDUnitTest\\DDDUnitTest.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,14 @@
     "C:\\Users\\adria\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\nunit.analyzers\\4.0.1\\nunit.analyzers.4.0.1.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\adria\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit\\2.9.2\\xunit.2.9.2.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.analyzers\\1.16.0\\xunit.analyzers.1.16.0.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.assert\\2.9.2\\xunit.assert.2.9.2.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.core\\2.9.2\\xunit.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512"
   ],
   "logs": []
 }

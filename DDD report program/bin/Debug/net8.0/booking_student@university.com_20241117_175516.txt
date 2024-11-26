@@ -1,4 +1,0 @@
-Booking - 17/11/2024 17:55:16
-Student: student@university.com
-Room: 64
-Supervisor: Prof. Williams (ST)

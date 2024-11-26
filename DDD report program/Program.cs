@@ -3,15 +3,18 @@
     //got most of the program working although i need to fix some stuff + add error checking and change some stuff
     //need to do passwords saved in the txt file 
     //need to add a way to load the users from a file
+    //need to fix the unit test to make it work and also start on the ci cid stuff although idk if i should do the cicid stuff first or the unit test first both seem viable imo
+    // need to fix text that saves file as it is confusing easy
+    // also the formating is a bit odd too so could add onto that
     
     class Program : StudentSystems
     {
-        private static List<User> users = new List<User>();
-        private static User currentUser = null;
-        private static List<SelfReport> selfReports = new List<SelfReport>();
-        private static List<Booking> bookings = new List<Booking>();
+        public static List<User> users = new List<User>();
+        public static User currentUser = null;
+        public static List<SelfReport> selfReports = new List<SelfReport>();
+        public static List<Booking> bookings = new List<Booking>();
 
-        private static List<string> courses = new List<string>
+        public static List<string> courses = new List<string>
         {
             "Programming Fundamentals",
             "Data Structures",
@@ -20,7 +23,7 @@
             "Web Development"
         };
 
-        private static List<string> supervisors = new List<string>
+        public static List<string> supervisors = new List<string>
         {
             "Sir. Simon the 3rd (PS)",
             "Dr. Nishikami (PS)",
@@ -35,7 +38,7 @@
             RunProgram();
         }
 
-        private static void RunProgram()
+        public static void RunProgram()
         {
             while (true)
             {
@@ -51,7 +54,7 @@
         }
 
 //menus work!!!!
-        private static void ShowInitialMenu()
+        public static void ShowInitialMenu()
         {
             while (true)
             {
@@ -83,12 +86,11 @@
             }
         }
 //this is where the user can register and is added to a new list of users and stuff
-        private static void RegisterNewAccount()
+        public static void RegisterNewAccount()
         {
             Console.Clear();
             Console.WriteLine("=== Register a New Account ===");
-            string name;
-            //implemented regex to check if the name is valid so if it only includes letters and no special characters
+            string name, email, password, role = string.Empty;            //implemented regex to check if the name is valid so if it only includes letters and no special characters
             while (true)
             {
                 Console.Write("Enter your name: ");
@@ -100,7 +102,7 @@
                 Console.WriteLine("Invalid name. Please enter a name that only includes letters.");
             } 
             //implemented regex to check if the email is valid
-            string email;
+            
             while (true)
             {
                 Console.Write("Enter your email: ");
@@ -122,7 +124,7 @@
             }
             
             //implemented regex to check if password has the valid format of min 8 characters with a special character and a number
-            string password;
+            
             while(true)
             {
                 Console.Write("Enter your password: ");
@@ -140,21 +142,23 @@
             Console.WriteLine("1. Student");
             Console.WriteLine("2. Supervisor");
             Console.WriteLine("3. Senior Tutor");
-            string roleChoice = Console.ReadLine();
-            string role = roleChoice switch
+            string RoleInput = Console.ReadLine();
+            switch (RoleInput)
             {
-                "1" => "Student",
-                "2" => "Supervisor",
-                "3" => "Senior Tutor",
-                _ => null
+               case "1":
+                   role = "Student";
+                   break;
+                case "2":
+                    role = "Supervisor";
+                    break;
+                case "3":
+                    role = "Senior Tutor";
+                    break;
+                default:
+                    Console.WriteLine("Invalid role. Please enter a valid role.");
+                    break;
             };
                 
-            if (role == null)
-                {
-                    Console.WriteLine("Invalid role. Press any key to try again...");
-                    Console.ReadKey();
-                    return;
-                }
         
             users.Add(new User { Name = name, Email = email, Password = password, Role = role });
 
@@ -215,7 +219,7 @@
                 Console.WriteLine($"=== Main Menu - Welcome {currentUser?.Email} ===");
                 Console.WriteLine("1. Create Self Report");
                 Console.WriteLine("2. Book a Meeting");
-                Console.WriteLine("3. Save Reports and Bookings");
+                Console.WriteLine("3. Save Reports and Bookings as TXT Files");
                 Console.WriteLine("4. Display Users");
                 Console.WriteLine("5. Logout");
                 Console.WriteLine("6. Exit Program");
