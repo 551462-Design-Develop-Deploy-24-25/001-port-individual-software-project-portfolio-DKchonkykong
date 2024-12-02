@@ -19,4 +19,4 @@ C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.core.dll
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\bin\Debug\net8.0\xunit.execution.dotnet.dll
 C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.csproj.AssemblyReference.cache
-C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD report program.csproj.CopyComplete
+C:\Users\adria\RiderProjects\DDD report program\DDD report program\obj\Debug\net8.0\DDD repo.07E71549.Up2Date

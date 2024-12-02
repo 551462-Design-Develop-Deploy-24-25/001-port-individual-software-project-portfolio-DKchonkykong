@@ -17,7 +17,7 @@
         public static List<string> courses = new List<string>
         {
             "Programming Fundamentals",
-            "Data Structures",
+            "Introduction To Games Design",
             "Algorithms",
             "Database Systems",
             "Web Development"
@@ -112,15 +112,6 @@
                     break;
                 }
                 Console.WriteLine("Invalid email. Please enter a valid email.");
-                
-                //could tie in for the captcha prompt here
-      //          if (users.Any(u => u.Email == email))
-    //            {
-  //                  Console.WriteLine("Email already exists. Please enter a different email.");
-//                }
-              //  {
-              //      break;
-                //}
             }
             
             //implemented regex to check if password has the valid format of min 8 characters with a special character and a number
@@ -167,7 +158,7 @@
         }
         
         //this displays the users that are in the system 
-        private static void DisplayUsers()
+        public static void DisplayUsers()
         {
             Console.Clear();
             Console.WriteLine("=== Users ===");
@@ -181,7 +172,7 @@
 
         //load users from a file, although you do need to add a file path but can't think of a better solution atm
         //maybe use regex? or a database
-        private static void LoadUsersFromFile()
+        public static void LoadUsersFromFile()
         {
             Console.Clear();
             Console.WriteLine("=== Load Users from File ===");
@@ -211,7 +202,7 @@
         }
         
 //actual main menu where the user can make a self report etc.
-        private static void ShowMainMenu()
+        public static void ShowMainMenu()
         {
             while (true)
             {
@@ -255,7 +246,7 @@
         }
 //self report system where the user can rate how they feel and how they feel about their courses
 //currently it does do partially however i'd need have it so it's both the scale of 0-10 and the written feedback
-        private static void CreateSelfReport()
+        public static void CreateSelfReport()
         {
             Console.Clear();
             Console.WriteLine("=== Self Report ===");
@@ -285,7 +276,7 @@
             SaveData(); //saves it after creating the self report
         }
         //Makes it so the user can book a meeting with a supervisor
-        private static void CreateBooking()
+        public static void CreateBooking()
         {
             Console.Clear();
             Console.WriteLine("=== Book a Meeting ===");
@@ -320,7 +311,7 @@
         }
 
         //this is for saving reports to the file system and the correct format
-        private static void SaveData()
+        public static void SaveData()
         {
             Console.Clear();
             Console.WriteLine("=== Save Reports and Bookings ===");

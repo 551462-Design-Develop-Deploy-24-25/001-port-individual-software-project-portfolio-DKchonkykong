@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\RiderProjects\\DDD report program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd unit test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|solutionrelative:ddd unit test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd unit test\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|solutionrelative:ddd unit test\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\studentsystems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\studentsystems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd unit test\\selfreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|solutionrelative:ddd unit test\\selfreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd unit test\\studentsystems\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|solutionrelative:ddd unit test\\studentsystems\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd unit test\\studentsystems\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B032E5-2109-4296-942A-A26ECCAA7253}|DDD unit test\\DDD unit test.csproj|solutionrelative:ddd unit test\\studentsystems\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\supervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\supervisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|c:\\users\\adria\\riderprojects\\ddd report program\\ddd report program\\studentsystems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF96371-92DF-4742-A727-DAA264447397}|DDD report program\\DDD report program.csproj|solutionrelative:ddd report program\\studentsystems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +46,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "DDD unit test\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\MSTestSettings.cs",
+              "RelativeToolTip": "DDD unit test\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:52:24.369Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\StudentSystems\\Users.cs",
+              "RelativeDocumentMoniker": "DDD unit test\\StudentSystems\\Users.cs",
+              "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\StudentSystems\\Users.cs",
+              "RelativeToolTip": "DDD unit test\\StudentSystems\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:07:20.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\StudentSystems\\Booking.cs",
+              "RelativeDocumentMoniker": "DDD unit test\\StudentSystems\\Booking.cs",
+              "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\StudentSystems\\Booking.cs",
+              "RelativeToolTip": "DDD unit test\\StudentSystems\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:58:36.32Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SelfReport.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\SelfReport.cs",
+              "RelativeDocumentMoniker": "DDD unit test\\SelfReport.cs",
+              "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\SelfReport.cs",
+              "RelativeToolTip": "DDD unit test\\SelfReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:59:12.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\User.cs",
               "RelativeDocumentMoniker": "DDD report program\\User.cs",
               "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\User.cs",
               "RelativeToolTip": "DDD report program\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:27:25.169Z",
+              "WhenOpened": "2024-11-19T13:27:25.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "DDD unit test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD unit test\\UnitTest1.cs",
+              "RelativeToolTip": "DDD unit test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:52:28.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Supervisor.cs",
               "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\Supervisor.cs",
               "RelativeDocumentMoniker": "DDD report program\\Supervisor.cs",
               "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\Supervisor.cs",
               "RelativeToolTip": "DDD report program\\Supervisor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:27:25.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:27:25.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "StudentSystems.cs",
               "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\StudentSystems.cs",
               "RelativeDocumentMoniker": "DDD report program\\StudentSystems.cs",
               "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\StudentSystems.cs",
               "RelativeToolTip": "DDD report program\\StudentSystems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:27:25.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:27:25.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\Program.cs",
               "RelativeDocumentMoniker": "DDD report program\\Program.cs",
               "ToolTip": "C:\\Users\\adria\\RiderProjects\\DDD report program\\DDD report program\\Program.cs",
               "RelativeToolTip": "DDD report program\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8BAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:27:24.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:27:24.474Z"
             }
           ]
         }
