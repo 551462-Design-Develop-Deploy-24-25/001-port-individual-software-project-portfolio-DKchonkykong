@@ -7,26 +7,22 @@ on:
   
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     
     - name: Setup .NET environment
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.0.x
 
-    - name: Install Test platform
-      working-directory: \Users\adria\source\repos\001-port-individual-software-project-portfolio-DKchonkykong
-      run: dotnet add package Microsoft.TestPlatform --version 17.5.0
-
     - name: Dependencies Restore 
       run: dotnet restore
-      
+      working-directory: ./DDD report program/DDD report program.csproj --configuration Release --no-restore
     - name: Project Build
-      run: dotnet build
+      run: dotnet build ./DDD unit test/DDD unit test.csproj --configuration Debug --no-restore
       
-    - name: Project Test
-      run: dotnet test
+    - name: Run Test
+      run: dotnet test ./DDD unit test/DDD unit test.csproj --no-build --verbosity normal
