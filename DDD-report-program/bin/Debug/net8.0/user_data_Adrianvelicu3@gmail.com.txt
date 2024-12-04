@@ -1,0 +1,5 @@
+Name: Adrian (username)
+Email: Adrianvelicu3@gmail.com (email)
+Password: Password123! (password)
+Role: Student
+

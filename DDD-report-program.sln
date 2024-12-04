@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD-report-program", "DDD-report-program\DDD-report-program.csproj", "{FFF96371-92DF-4742-A727-DAA264447397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD-unit-test", "DDD-unit-test\DDD-unit-test.csproj", "{72B032E5-2109-4296-942A-A26ECCAA7253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF96371-92DF-4742-A727-DAA264447397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF96371-92DF-4742-A727-DAA264447397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF96371-92DF-4742-A727-DAA264447397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF96371-92DF-4742-A727-DAA264447397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B032E5-2109-4296-942A-A26ECCAA7253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B032E5-2109-4296-942A-A26ECCAA7253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B032E5-2109-4296-942A-A26ECCAA7253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B032E5-2109-4296-942A-A26ECCAA7253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

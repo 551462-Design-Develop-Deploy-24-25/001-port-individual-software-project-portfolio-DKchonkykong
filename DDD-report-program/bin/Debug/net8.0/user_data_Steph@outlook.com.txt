@@ -1,0 +1,5 @@
+Name: Steph (username)
+Email: Steph@outlook.com (email)
+Password: theMan123!!! (password)
+Role: Student
+
