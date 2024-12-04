@@ -1,0 +1,27 @@
+2024-11-26T22:29:47.0968827+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.0.0+00333e15ddcf1480cb4fe0422ab1d950596c18d8
+2024-11-26T22:29:47.1088834+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2024-11-26T22:29:47.1109931+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2024-11-26T22:29:47.1110082+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 22:29:47.048
+2024-11-26T22:29:47.1126796+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 24396
+2024-11-26T22:29:47.1129036+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.11
+2024-11-26T22:29:47.1129242+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.11\System.Private.CoreLib.dll
+2024-11-26T22:29:47.1129359+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2024-11-26T22:29:47.1129429+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\adria\RiderProjects\DDD report program\DDD unit test\bin\Debug\net8.0\DDD unit test.dll
+2024-11-26T22:29:47.1131586+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\adria\RiderProjects\DDD report program\DDD unit test\bin\Debug\net8.0\Log --results-directory C:\Users\adria\RiderProjects\DDD report program\TestResults --client-port 54926'
+2024-11-26T22:29:47.1153650+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2024-11-26T22:29:47.1340957+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2024-11-26T22:29:47.1385396+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\adria\RiderProjects\DDD report program\DDD unit test\bin\Debug\net8.0\DDD unit test.testingplatformconfig.json' not found.
+2024-11-26T22:29:47.1405433+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2024-11-26T22:29:47.1697235+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TestApplicationOptions.EnableTelemetry: True
+2024-11-26T22:29:47.1704071+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TESTINGPLATFORM_TELEMETRY_OPTOUT environment variable: '0'
+2024-11-26T22:29:47.1704632+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION DOTNET_CLI_TELEMETRY_OPTOUT environment variable: ''
+2024-11-26T22:29:47.1704904+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TESTINGPLATFORM_NOBANNER environment variable: ''
+2024-11-26T22:29:47.1704941+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION DOTNET_NOLOGO environment variable: ''
+2024-11-26T22:29:47.1704952+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION Telemetry is 'ENABLED'
+2024-11-26T22:29:47.1737701+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION Telemetry collector provider: 'Microsoft.Testing.Extensions.Telemetry.AppInsightsProvider'
+2024-11-26T22:29:47.2069109+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Starting server mode
+2024-11-26T22:29:47.2771485+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Received initialize request
+2024-11-26T22:29:47.2776543+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Connection established with 'Microsoft Visual Studio Testing Platform Client', protocol version 1.0.0
+2024-11-26T22:29:47.3043149+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Received testing/discoverTests request
+2024-11-26T22:29:47.3275571+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION TestFrameworkAdapter UID: 'MSTestExtension' Version: '3.2.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2024-11-26T22:29:47.4199487+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Server requested to shutdown
