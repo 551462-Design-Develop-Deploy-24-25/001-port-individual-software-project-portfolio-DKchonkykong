@@ -16,10 +16,10 @@ jobs:
     - name: Setup .NET enviroment
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: '8.0.x'
 
-- name: Install Test platform
-working-directory: Users\adria\RiderProjects\DDD report program\DDD report program.sln
+- name: Install Test Platform
+working-directory: Users\adria\RiderProjects\DDD report program\DDD report program
 run: dotnet add package Microsoft.TestPlatform --version 17.5.0
 
         
