@@ -1,5 +1,6 @@
 namespace DDD_report_program;
-
+//user details class has get set methods for supervisor and student
+//inherits from base class user
 public class UserDetails
 {
     public class Supervisor : User

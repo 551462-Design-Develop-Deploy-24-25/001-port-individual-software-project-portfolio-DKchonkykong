@@ -1,14 +1,10 @@
 ﻿namespace DDD_report_program
 {
-    //got most of the program working although i need to fix some stuff + add error checking and change some stuff
-    //need to do passwords saved in the txt file 
-    //need to add a way to load the users from a file
-    //need to fix the unit test to make it work and also start on the ci cid stuff although idk if i should do the cicid stuff first or the unit test first both seem viable imo
-    // need to fix text that saves file as it is confusing easy
-    // also the formating is a bit odd too so could add onto that
-    
     class Program : StudentSystems
     {
+        /// <General Lists>
+        /// This is where lists is called from and where you can change what each lists has e.,g courses or the supervisors
+        /// </Lists>
         public static List<User> users = new List<User>();
         public static User currentUser = null;
         public static List<SelfReport> selfReports = new List<SelfReport>();
@@ -53,7 +49,7 @@
             }
         }
 
-//menus work!!!!
+// it's what the user will first see can pick to register, load user and exit
         public static void ShowInitialMenu()
         {
             while (true)
@@ -171,7 +167,6 @@
         }
 
         //load users from a file, although you do need to add a file path but can't think of a better solution atm
-        //maybe use regex? or a database
         public static void LoadUsersFromFile()
         {
             Console.Clear();
@@ -201,7 +196,7 @@
             Console.ReadKey();
         }
         
-//actual main menu where the user can make a self report etc.
+//actual main menu where the user can make a self report book a meeting etc.
         public static void ShowMainMenu()
         {
             while (true)
