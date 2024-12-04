@@ -1,8 +1,5 @@
-The `DDD-unit-test/DDD-unit-test.csproj` file exists in the repository. Ensure the `working-directory` is correctly set to the repository root or to the correct path where the project resides.
 
-Here is a revised version of your workflow file:
 
-```yaml
 name: DDD report program Unit Test
 
 on:
