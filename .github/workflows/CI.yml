@@ -1,3 +1,8 @@
+The `DDD-unit-test/DDD-unit-test.csproj` file exists in the repository. Ensure the `working-directory` is correctly set to the repository root or to the correct path where the project resides.
+
+Here is a revised version of your workflow file:
+
+```yaml
 name: DDD report program Unit Test
 
 on:
@@ -20,12 +25,12 @@ jobs:
 
     - name: Dependencies Restore 
       run: dotnet restore
-      working-directory: ${{ github.workspace }}/DDD-report-program
+      working-directory: DDD-unit-test
 
     - name: Project Build
       run: dotnet build
-      working-directory: ${{ github.workspace }}/DDD-report-program
+      working-directory: DDD-unit-test
       
     - name: Run Test
-      run: dotnet test DDD-unit-test/DDD-unit-test.csproj --no-build --verbosity normal
-      working-directory: ${{ github.workspace }}/DDD-report-program
+      run: dotnet test --no-build --verbosity normal
+      working-directory: DDD-unit-test
