@@ -20,9 +20,9 @@ jobs:
 
     - name: Dependencies Restore 
       run: dotnet restore
-      working-directory: ./DDD report program/DDD report program.csproj __configuration Release__no_restore
+      working-directory: ${{ github.workspace }} ./DDD_report_program/DDD_report_program.csproj __configuration Release__no_restore
     - name: Project Build
-      run: dotnet build ./DDD unit test/DDD unit test.csproj __configuration_Debug__no_restore
+      run: dotnet build
       
     - name: Run Test
-      run: dotnet test ./DDD unit test/DDD unit test.csproj __no-build __verbosity_normal
+      run: dotnet test ./DDD_unit_test/DDD_unit_test.csproj --no-build --verbosity_normal
