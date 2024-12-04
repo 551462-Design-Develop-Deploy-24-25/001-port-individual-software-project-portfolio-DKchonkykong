@@ -1,0 +1,28 @@
+name: DDD report program Unit Test
+
+on:
+  push:
+    branches: 
+    - master
+  
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+    
+    - name: Setup .NET environment
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Dependencies Restore 
+      run: dotnet restore
+      working-directory: ${{ github.workspace }} ./DDD-report-program/DDD-report-program.csproj --configuration Release--no-restore
+    - name: Project Build
+      run: dotnet build
+      
+    - name: Run Test
+      run: dotnet test ./DDD-unit-test/DDD-unit-test.csproj --no-build --verbosity_normal
