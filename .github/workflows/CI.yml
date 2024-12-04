@@ -18,17 +18,17 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Install Test Platform
-        working-directory: DDD report program/DDD report program
+        working-directory: DDD unit test/UnitTests.cs
         run: dotnet add package Microsoft.TestPlatform --version 17.6.0
 
       - name: Dependencies Restore
-        working-directory: DDD report program/DDD report program
+        working-directory: DDD unit test/UnitTests.cs
         run: dotnet restore
 
       - name: Project Build
-        working-directory: DDD report program/DDD report program
+        working-directory: DDD unit test/UnitTests.cs
         run: dotnet build
 
       - name: Project Test
-        working-directory: DDD report program/DDD report program
+        working-directory: DDD unit test/UnitTests.cs
         run: dotnet test
