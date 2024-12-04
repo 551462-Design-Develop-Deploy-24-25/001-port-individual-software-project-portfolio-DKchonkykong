@@ -18,7 +18,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Install Test Platform
-        working-directory:  ${{ github.workspace }} Users\adria\RiderProjects\DDD report program\DDD report program
+        working-directory: DDD-report-program/DDD-report-program
         run: dotnet add package Microsoft.TestPlatform --version 17.6.0
 
       - name: Dependencies Restore
