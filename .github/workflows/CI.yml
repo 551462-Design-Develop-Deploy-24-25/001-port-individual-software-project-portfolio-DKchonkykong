@@ -20,9 +20,9 @@ jobs:
 
     - name: Dependencies Restore 
       run: dotnet restore
-      working-directory: ./DDD report program/DDD report program.csproj --configuration Release --no-restore
+      working-directory: ./DDD report program/DDD report program.csproj __configuration Release__no_restore
     - name: Project Build
-      run: dotnet build ./DDD unit test/DDD unit test.csproj --configuration Debug --no-restore
+      run: dotnet build ./DDD unit test/DDD unit test.csproj __configuration_Debug__no_restore
       
     - name: Run Test
-      run: dotnet test ./DDD unit test/DDD unit test.csproj --no-build --verbosity normal
+      run: dotnet test ./DDD unit test/DDD unit test.csproj __no-build __verbosity_normal
