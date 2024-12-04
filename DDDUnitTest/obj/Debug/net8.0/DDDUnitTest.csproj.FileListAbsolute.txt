@@ -1,6 +1,0 @@
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.csproj.AssemblyReference.cache
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.AssemblyInfoInputs.cache
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.AssemblyInfo.cs
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.csproj.CoreCompileInputs.cache
-C:\Users\adria\RiderProjects\DDD report program\DDDUnitTest\obj\Debug\net8.0\DDDUnitTest.sourcelink.json
