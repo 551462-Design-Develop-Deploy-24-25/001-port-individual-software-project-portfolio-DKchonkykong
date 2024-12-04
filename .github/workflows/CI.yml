@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Install Test platform
-      working-directory: Users/adria/RiderProjects/DDD-report-program
+      working-directory: DDD-report-program
       run: dotnet add package Microsoft.TestPlatform --version 17.5.0
 
     - name: Dependencies Restore 
