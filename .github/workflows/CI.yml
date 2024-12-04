@@ -19,8 +19,7 @@ jobs:
 
       - name: Install Test Platform
         working-directory: DDD report program/DDD report program
-        run: dotnet add package Microsoft.TestPlatform --version 17.5.0
-
+run: dotnet add package Microsoft.TestPlatform --version 17.6.0
       - name: Dependencies Restore
         working-directory: DDD report program/DDD report program
         run: dotnet restore
