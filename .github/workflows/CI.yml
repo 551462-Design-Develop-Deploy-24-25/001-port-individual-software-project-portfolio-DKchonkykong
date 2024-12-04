@@ -2,32 +2,30 @@ name: DDD report program Unit Test
 
 on:
   push:
-    branches: 
-    - master
-  
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout Repository
-    - uses: actions/checkout@v2
-    
-    - name: Setup .NET enviroment
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x'
-
-- name: Install Test Platform
-working-directory: Users\adria\RiderProjects\DDD report program\DDD report program
-run: dotnet add package Microsoft.TestPlatform --version 17.5.0
-
-        
-    - name: Dependencies Restore 
-      run: dotnet restore
+      - name: Checkout Repository
+        uses: actions/checkout@v2
       
-    - name: Project Build
-      run: dotnet build
+      - name: Setup .NET environment
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
       
-    - name: Project Test
-      run: dotnet test 
+      - name: Install Test Platform
+        working-directory: Users/adria/RiderProjects/DDD report program/DDD report program
+        run: dotnet add package Microsoft.TestPlatform --version 17.5.0
+      
+      - name: Dependencies Restore
+        run: dotnet restore
+      
+      - name: Project Build
+        run: dotnet build
+      
+      - name: Project Test
+        run: dotnet test
