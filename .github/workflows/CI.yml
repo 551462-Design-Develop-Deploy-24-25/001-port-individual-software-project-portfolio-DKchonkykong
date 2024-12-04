@@ -20,7 +20,7 @@ jobs:
 
     - name: Dependencies Restore 
       run: dotnet restore
-      working-directory: ${{ github.workspace }} DDD-report-program/DDD-report-program.csproj --configuration Release--no-restore
+      working-directory: ${{ github.workspace }} home/runner/work/001-port-individual-software-project-portfolio-DKchonkykong/001-port-individual-software-project-portfolio-DKchonkykong/DDD-report-program/DDD-report-program.csproj
     - name: Project Build
       run: dotnet build
       
